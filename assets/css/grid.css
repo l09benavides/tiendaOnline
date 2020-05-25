@@ -1,0 +1,266 @@
+/* `Container
+----------------------------------------------------------------------------------------------------*/
+.container {
+  width:100%;
+  position:relative;
+  max-width:1920px;
+  margin:0 auto;
+  height:100%;
+}
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+.grid_50{
+	position:relative;
+	float:left;
+	width:50%;}
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+  display: inline;
+  position:relative;
+  float:left;
+  margin-left:2.8%;
+}
+
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+  margin-left: 0;
+}
+
+.omega {
+  margin-right: 0;
+}
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+	.container .grid_1 {width: 5%;}
+	
+	.container .grid_2 {width: 13.5%;}
+	
+	.container .grid_3 {width: 21.5%;}
+	
+	.container .grid_4 {width: 29.5%;}
+	
+	.container .grid_5 {width: 37.5%;}
+	
+	.container .grid_6 {width: 45.5%;}
+	
+	.container .grid_7 {width: 53.5%;}
+	
+	.container .grid_8 {width: 61.5%;}
+	
+	.container .grid_9 {width: 69.5%;}
+	
+	.container .grid_10 {width: 77.5%;}
+	
+	.container .grid_11 {width: 85.5%;}
+	
+	.container .grid_12 {width: 93.5%;}
+
+/* `Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+	.container .prefix_1 {padding-left: 7.8%;}
+	.container .prefix_2 {padding-left: 16.3%;}
+	.container .prefix_3 {padding-left: 240px;}
+	.container .prefix_4 {padding-left: 320px;}
+	.container .prefix_5 {padding-left: 40.3%;}
+	.container .prefix_6 {padding-left: 48.3%;}
+	.container .prefix_7 {padding-left: 560px;}
+	.container .prefix_8 {padding-left: 640px;}
+	.container .prefix_9 {padding-left: 720px;}
+	.container .prefix_10 {padding-left: 800px;}
+	.container .prefix_11 {padding-left: 880px;}
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 780px) and (max-width: 1024px) {
+        .container{ width: 780px; position:relative; margin:0 auto; }
+        .grid_1,
+		.grid_2,
+		.grid_3,
+		.grid_4,
+		.grid_5,
+		.grid_6,
+		.grid_7,
+		.grid_8,
+		.grid_9,
+		.grid_10,
+		.grid_11,
+		.grid_12 { margin-left: 10px; margin-right: 10px;  }
+      
+
+		.container .grid_1 {width: 45px;}
+		
+		.container .grid_2 {width: 110px;}
+		
+		.container .grid_3 {width: 175px;}
+		
+		.container .grid_4 {width: 240px;}
+		
+		.container .grid_5 {width: 305px;}
+		
+		.container .grid_6 {width: 370px;}
+		
+		.container .grid_7 {width: 435px;}
+		
+		.container .grid_8 {width: 500px;}
+		
+		.container .grid_9 {width: 565px;}
+		
+		.container .grid_10 {width: 630px;}
+		
+		.container .grid_11 {width: 695px;}
+		
+		.container .grid_12 {width: 760px;}
+
+        /* Offsets */
+        .container .prefix_1 {padding-left: 65px;}
+		.container .prefix_2 {padding-left: 130px;}
+		.container .prefix_3 {padding-left: 190px;}
+		.container .prefix_4 {padding-left: 260px;}
+		.container .prefix_5 {padding-left: 325px;}
+		.container .prefix_6 {padding-left: 390px;}
+		.container .prefix_7 {padding-left: 455px;}
+		.container .prefix_8 {padding-left: 520px;}
+		.container .prefix_9 {padding-left: 585px;}
+		.container .prefix_10 {padding-left: 650px;}
+		.container .prefix_11 {padding-left: 715px;}
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 780px) {
+        .container { width: 300px;position:relative; margin:0 auto; }
+		.grid_1,
+		.grid_2,
+		.grid_3,
+		.grid_4,
+		.grid_5,
+		.grid_6,
+		.grid_7,
+		.grid_8,
+		.grid_9,
+		.grid_10,
+		.grid_11,
+		.grid_12 { margin: 0; }
+
+		.container .grid_1,
+		.container .grid_2,
+		.container .grid_3,
+		.container .grid_4,
+		.container .grid_5,
+		.container .grid_6,
+		.container .grid_7,
+		.container .grid_8,
+		.container .grid_9,
+		.container .grid_10,
+		.container .grid_11,
+		.container .grid_12 { width: 300px; }
+
+        /* Offsets */
+		.container .prefix_1,
+		.container .prefix_2,
+		.container .prefix_3,
+		.container .prefix_4,
+		.container .prefix_5,
+		.container .prefix_6,
+		.container .prefix_7,
+		.container .prefix_8,
+		.container .prefix_9,
+		.container .prefix_10,
+		.container .prefix_11 { padding-left: 0; }
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container {
+	width: 420px;
+}
+        .container .columns,
+        .container .column { margin: 0; }
+
+        .container .grid_1,
+		.container .grid_2,
+		.container .grid_3,
+		.container .grid_4,
+		.container .grid_5,
+		.container .grid_6,
+		.container .grid_7,
+		.container .grid_8,
+		.container .grid_9,
+		.container .grid_10,
+		.container .grid_11,
+		.container .grid_12 { width: 420px; }
+    }
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after,
+.container:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix,
+.container {
+  zoom: 1;
+}
