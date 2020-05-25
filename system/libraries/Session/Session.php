@@ -137,7 +137,7 @@ class CI_Session {
 			)
 		)
 		{
-			unset($_COOKIE[$this->_config['cookie_name']]);
+			//unset($_COOKIE[$this->_config['cookie_name']]);
 		}
 
 		//session_start();
