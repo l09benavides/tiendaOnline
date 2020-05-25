@@ -37,7 +37,7 @@
  */
 
 //Fix session issue on PHP 7
-session_start();
+//session_start();
 
 /*
  *---------------------------------------------------------------
