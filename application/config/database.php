@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'mechesdbuser',
-	'password' => 'Jg8TeXl03Efc',
-	'database' => 'mechesfermentsDB',
+	'hostname' => 'mysqldb-tienda.mysql.database.azure.com',
+	'username' => 'dbadmin@mysqldb-tienda',
+	'password' => 'Truecontrol12!',
+	'database' => 'tienda',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
