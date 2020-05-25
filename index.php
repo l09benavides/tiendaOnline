@@ -89,6 +89,9 @@ switch (ENVIRONMENT)
 		exit(1); // EXIT_ERROR
 } 
 
+//Fix session issue on PHP 7
+session_start();
+
 /*
  *---------------------------------------------------------------
  * SYSTEM DIRECTORY NAME
