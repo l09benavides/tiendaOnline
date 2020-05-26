@@ -97,7 +97,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </style>
 
 
-</head>
 <body>
 
 <ol class="breadcrumb">
@@ -213,4 +212,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 </body>
-</html>
