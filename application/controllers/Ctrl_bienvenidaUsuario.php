@@ -37,6 +37,7 @@ class Ctrl_bienvenidaUsuario extends CI_Controller {
 	//Esta función hace el llamado a los modelos para traer información de imágenes de inicio y de temas, así como información de sesión que identifica al usuario, permite también desplegar la vista de bienvenida	
 	public function index()
 	{
+		session_start();
 		if($this->session->userdata('ax')){
 			$data['Tema'] = $this->Model_TemaActual->met_traerTemaActual(); //PARA TENER EL TEMA EN USO
 			$session_data=$this->session->userdata('ax');
