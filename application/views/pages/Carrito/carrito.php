@@ -170,7 +170,7 @@ if (!isset($detalles) && (!isset($infoUser) || $infoUser == null)){
 	<h2>Estimado Invitado,</h2>
 	<br>
 	<br>
-	<h2>Por favor <a href="<?php echo base_url(); ?>.userAccess"> ingresa al sitio </a> o <a href= "<?php echo base_url(); ?>.userRegistration"> crea una nueva cuenta</a> para utilizar el carrito</h2>
+	<h2>Por favor <a href="<?php echo base_url(); ?>userAccess"> ingresa al sitio </a> o <a href= "<?php echo base_url(); ?>userRegistration"> crea una nueva cuenta</a> para utilizar el carrito</h2>
 	<br>
 	<br>
 </div>
