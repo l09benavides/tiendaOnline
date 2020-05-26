@@ -13,7 +13,7 @@
 //Se remueve la opción de recordar contraseña.
 //************************************************
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+?>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
