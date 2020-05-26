@@ -49,7 +49,7 @@ $(document).ready(function () {
 		            type: "POST",
 		            dataType: "JSON",
 		            data: param ,
-		            url: '<?php echo site_url('Ctrl_Carrito/ajax_actualizarDirCarrito/');?>',
+		            url: '<?php echo site_url('Ctrl_Carrito/ajax_actualizarDirCarrito/');?>', 
 		            success: function (data) {
 		            	$("#modalConfirmaciontxt").html("Direccion Actualidad correctamente");
 						$("#modalConfirmacionimg").attr({src:"<?php echo base_url();?>images/ok.gif",style:"text-align:center"});
@@ -170,7 +170,7 @@ if (!isset($detalles) && (!isset($infoUser) || $infoUser == null)){
 	<h2>Estimado Invitado,</h2>
 	<br>
 	<br>
-	<h2>Por favor <a href='https://www.mechesferments.com/userAccess'> ingresa al sitio </a> o <a href='https://www.mechesferments.com/userRegistration'> crea una nueva cuenta</a> para utilizar el carrito</h2>
+	<h2>Por favor <a href="<?php echo base_url(); ?>.userAccess"> ingresa al sitio </a> o <a href= "<?php echo base_url(); ?>.userRegistration"> crea una nueva cuenta</a> para utilizar el carrito</h2>
 	<br>
 	<br>
 </div>
